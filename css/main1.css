@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{  
+    height: auto;
+    width: 100%;
+   font-family: "Raleway", sans-serif;
+}
+header{
+    background-image: url(../images/download.jpg);
+    background-size: 100% 100%;
+    height: auto;
+    
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+    overflow: auto;
+}
+.one{
+    text-align: center;
+    margin-top:60px;
+}
+.one h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.one p{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+.parent2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.two{
+    border: 3px solid whitesmoke;
+    width: 120px;
+    height: 90px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+.there{
+    text-align: center;
+    margin-top: 90px;
+}
+.there h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.parent4{
+ display: flex;
+ justify-content: center;
+   margin-top: 40px;
+ 
+}
+.parent3{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+
+
+    
+}
+.parent3 input{
+    width: 75%;
+    height: 99%;
+    border: 0px;
+    border-radius: 30px;
+}
+.four{
+    position: absolute;
+    right:0px;
+    top: 0;
+    background-color: rgb(57, 114, 160);
+    border-radius:25px ;
+    height: 70%;
+    padding-top: 15px;
+    width: 25%;
+}
+.four label{
+    text-align: center;
+    padding-left: 13px;
+    color: white;
+}
+
+.f2 ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.f2 ul li{
+    padding-left: 20px;
+    transition: all 1s;
+}
+.f2 ul li :hover{
+    transform: scale(1.2,1.2);
+}
+.f2 ul li img{
+    width: 50px;
+    height: 50px;
+}
+section{
+    background-image: url(../images/download.jpg);
+    background-size: 100% 100%;
+    height: auto;
+
+}
+.six{
+    padding: 40px;
+}
+.five{
+  background-color:rgba(0, 0, 0, 0.26);
+   text-align: center;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+.five h1{ 
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top:20px ;
+}
+.five p{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.six .hr{
+    background-color: rgb(59, 102, 158);
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    right: 620px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.parent5{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.seven h1{
+color: white;
+font-size: 22px;
+font-weight: 200;
+}
+.seven p{
+    font-size: 15px;
+    color: white;
+}
+.eight h1{
+color: white;
+font-size: 22px;
+font-weight: 200;
+}
+.eight p{
+    font-size: 15px;
+    color: white;
+}
+.nine h1{
+color: white;
+font-size: 22px;
+font-weight: 200;
+}
+.nine p{
+    font-size: 15px;
+    color: white;
+}
+.nine img{
+    width: 50px;
+    height: 50px;
+}
+.eleven{
+    padding: 20px 120px; 
+    display: flex;
+    gap: 25px;
+}
+.ten{
+    background-color:rgba(0, 0, 0, 0.26);
+   /* text-align: center; */
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+   
+}
+.twelve{
+    width: 40%;
+    height: 550px;
+    border-top: 5px  solid rgb(57, 114, 160);
+    border-bottom: 5px  solid rgb(57, 114, 160);
+    background-color: rgba(240, 248, 255, 0.205);
+}
+.twelve div{
+    position: relative;
+}
+.twelve div img{
+    position: absolute;
+    left: 10px;
+    padding-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+.twelve div h1{
+    padding-top: 28px;
+    font-weight: 700;
+    padding-left: 80px;
+    color: white;
+    
+}
+
+.twelve div p{
+    padding-top: 5px;
+    padding-left: 80px;
+    color: white;
+    
+}
+.iframe{
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.onee{
+    width: 60%;
+    height: 550px;
+    border-top: 5px  solid rgb(57, 114, 160);
+    border-bottom: 5px  solid rgb(57, 114, 160);
+    background-color: rgba(240, 248, 255, 0.205);
+    position: relative;
+}
+.onee form{
+    padding: 40px;
+    
+}
+.onee label{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.onee input{
+     width: 280px;
+    height: 30px;
+    margin-top: 10px;
+}
+.onee textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 220px;
+}
+.special{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+   
+}
+button{
+    width: 130px;
+    height: 35px;
+    background-color:rgb(57, 114, 160);
+    color: white;
+    margin-top: 15px;
+    position: absolute;
+    right:250px ;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+.last{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.last h4{
+    font-size: 13px;
+    color: white;
+    font-weight: 70;
+    opacity: 0.6;
+    
+}
+
+
+
+
+
+
